@@ -61,9 +61,18 @@ echo "<hr>";
 print_r($cars);
 echo "<hr>";
 echo "<hr>";
+
  // array_shift()
  print_r($cars);
  echo "<hr>";
  echo array_shift($cars)."<br>";
 print_r($cars);
 
+
+ // array_unshift()
+echo "<hr>";
+$fruits = array("Apple","Grape","Orenage");
+print_r($fruits);
+echo "<hr>";
+array_unshift($fruits,"Banana", "Strawberry","cowberry");
+print_r($fruits);
