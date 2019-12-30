@@ -20,3 +20,21 @@ else
 }
 
 echo"<hr>";
+
+
+// int
+
+$age = 27;
+
+var_dump($age);
+if(is_int($age))
+{
+   echo" This variables is a integer !!";
+}
+else
+{
+    echo" This variables is not a integer !!";
+}
+
+echo"<hr>";
+
