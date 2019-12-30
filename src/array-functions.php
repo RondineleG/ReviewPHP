@@ -1,6 +1,6 @@
 <?php
 
-$names = array("Father"=>"Jose","Friend"=>"felipe", "Undefined"=>"Rondinele");
+$names = array("Father" => "Jose", "Friend" => "felipe", "Undefined" => "Rondinele");
 
 
 // is_array();
@@ -19,12 +19,11 @@ echo "<hr>";
 
 // in_array();
 
-echo in_array("Jose",$names);
-var_dump(in_array("Jose",$names));
+echo in_array("Jose", $names);
+var_dump(in_array("Jose", $names));
 echo "<hr>";
 
-if (in_array("Jose",$names) )
-{
+if (in_array("Jose", $names)) {
     echo " exits in array";
 } else {
     echo "not exits in array";
@@ -37,8 +36,7 @@ $keys = array_keys($names);
 print_r($keys);
 echo "<hr>";
 
-if (in_array("Jose",$names) )
-{
+if (in_array("Jose", $names)) {
     echo " exits in array";
 } else {
     echo "not exits in array";
