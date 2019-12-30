@@ -17,4 +17,10 @@ else
     echo "It's bigger";
 }
 
+// ternary operator
 
+echo "<hr>";
+
+$average = 7;
+
+echo ($average >=7) ? "Aproved!" : "Reproved!";
