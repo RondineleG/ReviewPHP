@@ -51,3 +51,14 @@ echo "<hr>";
  $vehicle = array_merge($cars, $motocycle);
 
  print_r($vehicle);
+
+ echo "<hr>";
+
+ // array_pop()
+ print_r($cars);
+ echo "<hr>";
+ echo array_pop($cars)."<br>";
+print_r($cars);
+
+
+
