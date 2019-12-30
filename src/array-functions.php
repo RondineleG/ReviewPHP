@@ -36,8 +36,11 @@ $keys = array_keys($names);
 print_r($keys);
 echo "<hr>";
 
-if (in_array("Jose", $names)) {
-    echo " exits in array";
-} else {
-    echo "not exits in array";
-}
+// array_values();
+
+echo "<hr>";
+$values = array_values($names);
+print_r($values);
+echo "<hr>";
+ 
+ 
