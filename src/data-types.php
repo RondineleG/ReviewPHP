@@ -38,3 +38,19 @@ else
 
 echo"<hr>";
 
+// float
+
+$height = 1.66;
+
+var_dump($height);
+if(is_float($height))
+{
+   echo" This variables is a float number !!";
+}
+else
+{
+    echo" This variables is not a float number !!";
+}
+
+echo"<hr>";
+
