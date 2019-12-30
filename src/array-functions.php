@@ -116,3 +116,10 @@ print_r($fruits);
  $newText = explode(" ",$text);
 
  print_r($newText);
+
+
+  // inplode()
+  echo "<hr>";
+  $string = implode(" -/- ", $names);
+
+  echo $string;
