@@ -54,3 +54,18 @@ else
 
 echo"<hr>";
 
+// boolean  
+
+$admin = true;
+
+var_dump($admin);
+if(is_bool($admin))
+{
+   echo" This variables is a boolean value !!";
+}
+else
+{
+    echo" This variables is not a boolean value !!";
+}
+
+echo"<hr>";
