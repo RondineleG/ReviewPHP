@@ -100,3 +100,19 @@ print_r($fruits);
  // array_sum()
  $sum = array(7,8.5,10.5);
  echo array_sum($sum);
+
+
+  // explode()
+ echo "<hr>";
+ $date = "30/12/2109";
+
+ $newDate = explode('/',$date);
+
+ print_r($newDate);
+
+ echo "<hr>";
+ $text = "My name is  Rondinele";
+
+ $newText = explode(" ",$text);
+
+ print_r($newText);
