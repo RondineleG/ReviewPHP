@@ -95,3 +95,8 @@ print_r($fruits);
  $teams = array_combine($keys,$values);
 
  print_r($teams);
+ echo "<hr>";
+
+ // array_sum()
+ $sum = array(7,8.5,10.5);
+ echo array_sum($sum);
