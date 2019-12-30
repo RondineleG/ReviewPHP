@@ -43,4 +43,11 @@ $values = array_values($names);
 print_r($values);
 echo "<hr>";
  
- 
+ // array_merge()
+
+ $cars = array("gol", "uno","celta");
+ $motocycle = array("Pop100","50cc","cb1000");
+
+ $vehicle = array_merge($cars, $motocycle);
+
+ print_r($vehicle);
