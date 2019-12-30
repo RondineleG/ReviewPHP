@@ -17,3 +17,14 @@ if (is_array($names)) {
 
 echo "<hr>";
 
+// in_array();
+echo in_array("Jose",$names);
+var_dump(in_array("Jose",$names));
+echo "<hr>";
+
+if (in_array("Jose",$names) )
+{
+    echo " exits in array";
+} else {
+    echo "not exits in array";
+}
