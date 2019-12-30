@@ -86,3 +86,12 @@ print_r($fruits);
  echo "<hr>";
  array_push($fruits,"Banana", "Strawberry","cowberry");
  print_r($fruits);
+
+ // array_combine()
+ echo "<hr>";
+ $keys = array("Champion","Runner-up","Third");
+ $values = array("Flamengo","Vasco","Botafogo");
+
+ $teams = array_combine($keys,$values);
+
+ print_r($teams);
