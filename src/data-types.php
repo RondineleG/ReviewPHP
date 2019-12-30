@@ -62,5 +62,34 @@ echo "<hr>";
 $cars = array("Gol", "Uno", "Celta", 12, 2.0, true);
 
 var_dump($cars);
-
+if (is_array($cars)) {
+    echo " This variables is a Array !!";
+} else {
+    echo " This variables is not a Array !!";
+}
 echo "<hr>";
+
+// Object
+
+class Customer
+{
+    public $Name;
+
+    public function setName($Name)
+    {
+        $this->$Name = $Name;
+
+    }
+
+}
+
+$customer = new Customer();
+$customer->setName("Rondinele");
+
+var_dump($customer);
+if (is_object($customer)) {
+    echo " This variables is a Object !!";
+} else {
+    echo " This variables is not a Object !!";
+}
+
