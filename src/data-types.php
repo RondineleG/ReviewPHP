@@ -93,3 +93,9 @@ if (is_object($customer)) {
     echo " This variables is not a Object !!";
 }
 
+echo "<hr>";
+// NULL
+
+$city = NULL;
+
+var_dump($city);
