@@ -76,3 +76,13 @@ print_r($fruits);
 echo "<hr>";
 array_unshift($fruits,"Banana", "Strawberry","cowberry");
 print_r($fruits);
+
+
+
+ // array_push()
+ echo "<hr>";
+ $fruits = array("Apple","Grape","Orenage");
+ print_r($fruits);
+ echo "<hr>";
+ array_push($fruits,"Banana", "Strawberry","cowberry");
+ print_r($fruits);
