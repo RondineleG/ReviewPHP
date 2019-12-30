@@ -67,3 +67,43 @@ foreach($people as $key => $value)
 {
    echo $key.":".$value ."<br>";
 }
+
+// arrays multi dimension
+echo"<hr>";
+$teams = array(
+    "cariocas"=>array("Campeao"=>"vasco","Vice Campeao"=>"flamengo","Terceiro"=>"botafogo"),
+    "paulistas"=>array("Campeao"=>"santos","Vice Campeao"=>"sao paulo","Terceiro"=> "palmeiras"),
+    "mineiros"=>array("Campeao"=>"cruzeiro","Vice Campeao"=>"atletico","Terceiro"=>"america"));
+
+    echo $teams["paulistas"][2];
+    echo"<hr>";
+    
+    print_r($teams);
+
+
+    echo"<hr>";
+
+    foreach($teams["cariocas"] as $key =>$value)
+    {
+       echo $key . ":" . $value ."<br>";
+    }
+
+
+    echo"<hr>";
+
+    foreach($teams["paulistas"] as $key =>$value)
+    {
+       echo $key . ":" . $value ."<br>";
+    }
+
+
+    echo"<hr>";
+
+    foreach($teams["mineiros"] as $key =>$value)
+    {
+       echo $key . ":" . $value ."<br>";
+    }
+
+    echo"<hr>";
+
+     
