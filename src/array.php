@@ -53,3 +53,17 @@ foreach($customer as $value)
 
    echo $value ."<br>"."<hr>";
 }
+
+
+// arrays associatives
+echo"<hr>";
+$people = array("name"=>"Rondinele", "age"=>27);
+$people["city"] = "Itajai";
+print_r($people);
+echo"<hr>";
+echo $people["name"];
+echo"<hr>";
+foreach($people as $key => $value)
+{
+   echo $key.":".$value ."<br>";
+}
