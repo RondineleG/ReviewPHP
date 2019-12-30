@@ -59,6 +59,11 @@ echo "<hr>";
  echo "<hr>";
  echo array_pop($cars)."<br>";
 print_r($cars);
-
-
+echo "<hr>";
+echo "<hr>";
+ // array_shift()
+ print_r($cars);
+ echo "<hr>";
+ echo array_shift($cars)."<br>";
+print_r($cars);
 
