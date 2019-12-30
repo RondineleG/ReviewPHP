@@ -32,3 +32,24 @@ echo"<hr>";
 $customer = ["Rondinele", "Gabriela", "Bia"];
 print_r($customer);
 echo"<hr>";
+
+
+// function count
+
+echo count($customer);
+echo"<hr>";
+$customerList = count($customer);
+echo $customerList;
+
+
+//foreach 
+echo"<hr>";
+foreach($customer as $value)
+{
+    foreach($animals as $valueA)
+    {
+       echo $valueA . "<br>" ."<hr>";
+    }
+
+   echo $value ."<br>"."<hr>";
+}
