@@ -22,7 +22,12 @@ $people = array(
 for($i = 0, $size = count($people); $i < $size; ++$i) {
   echo $people[$i]['salt'] = mt_rand(000000, 999999);
 }
-
+echo"<hr>";
+for ($number = 1; $number <= 10; $number += 1) { 
+   echo $number % 2 * ( 2 + $number) ."<br>"; 
+   echo $number % 2 * ( 2 + $number) ."<br>"; 
+}  
+ 
 echo"<hr>";
 
 // foreach
