@@ -13,3 +13,12 @@ include_once 'data-types.php';
  echo"Show file config.php  using require function<br>";
 require 'config.php';
  echo"<hr>";
+
+ print_r($config);
+ echo"<hr>";
+ 
+ echo"Show file config.php  using require_once function<br>";
+ require_once 'config.php';
+  echo"<hr>";
+ 
+  print_r($config);
