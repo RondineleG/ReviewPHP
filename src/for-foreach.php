@@ -22,4 +22,15 @@ foreach($colors as $key => $value)
 { 
     echo $key."-".$value. "<br>";
 }
+echo"<hr>";
 
+$animalsList = array("Lion","Wolf", "Dog","Leopard"," Tiger");
+
+foreach($animalsList as $key=> $value)
+{
+   echo $key. " : " . $value . "<br>";
+}
+
+ksort($animalsList);
+echo"<hr>";
+print_r($animalsList);
