@@ -8,6 +8,7 @@ $cars[] = "Amarok";
 $cars[12] = "S10";
 
 //print array function
+asort($cars);
 print_r($cars);
 
 echo"<hr>";
@@ -30,6 +31,7 @@ print_r($animals);
 echo"<hr>";
 
 $customer = ["Rondinele", "Gabriela", "Bia"];
+sort($customer);
 print_r($customer);
 echo"<hr>";
 
@@ -106,4 +108,5 @@ $teams = array(
 
     echo"<hr>";
 
+    
      
