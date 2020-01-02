@@ -14,6 +14,16 @@ for($count = 0; $count <=10; $count ++)
 }
 
 echo"<hr>";
+$people = array(
+   array('name' => 'Kalle', 'salt' => 856412),
+   array('name' => 'Pierre', 'salt' => 215863)
+);
+
+for($i = 0, $size = count($people); $i < $size; ++$i) {
+  echo $people[$i]['salt'] = mt_rand(000000, 999999);
+}
+
+echo"<hr>";
 
 // foreach
 $colors = array("green", "blue", "red");
